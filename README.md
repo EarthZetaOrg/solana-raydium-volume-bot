@@ -23,7 +23,6 @@ And add feature to boost volume in Marketplace.
 - 🚀 **Swap with Jupiter V6**: Swap is performed with Jupiter V6 swap aggregator.
 - 🚀 **Swap with Meteora SDK: Swap is performed with Meteora dlmm and dyn SDK.
 - 🛠️ **Configurable Parameters**: Allows customization of buy amounts, intervals, distribution settings, and more.
-- <meta name="google-site-verification" content="La7m8w6zWlC05HmVsAHZH9u_GOmoDhsJVxHUJyboijI" />
 
 ## Example
 https://solscan.io/account/EqCgCTBSSqdzaZDr6r1LPsysXdJwc2jn3CBqD5dNQS6Q
