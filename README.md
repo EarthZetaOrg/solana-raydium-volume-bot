@@ -1,7 +1,16 @@
-# Raydium Volume Bot V3
+# Solana Raydium Volume Bot V3
 
-This bot is designed to automate the distribution of SOL to multiple wallets and execute endless buy and sell swap transactions simultaneously on the Raydium and Meteora platform. It leverages Solana's blockchain technology to perform these operations efficiently.
+Designed to automate the distribution of SOL to multiple wallets and execute endless buy and sell swap transactions simultaneously on the Raydium and Meteora platform. It leverages Solana's blockchain technology to perform these operations efficiently.
 And add feature to boost volume in Marketplace.
+
+# 👤 Contact Me
+
+### Discord: [John Criswick](https://discord.gg/343286332446998530)   
+johncriswick25
+### Telegram: [₿TC-GOD WEB3](https://t.me/opensea712)   
+https://t.me/opensea712
+
+Feel free to contact me if you need any help.
 
 ### What is the main difference between the former volume booster and the updated one?
 
@@ -58,11 +67,3 @@ npm run gather
 ```
 
 
-# 👤 Author
-
-### Twitter: [Dave Vasu](https://x.com/RambautETH)   
-https://x.com/RambautETH
-### Telegram: [DaveVasu](https://t.me/davevasu)   
-https://t.me/davevasu
-
-You can always find me here, for help, or for other projects.
