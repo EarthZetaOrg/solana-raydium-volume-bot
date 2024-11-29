@@ -5,8 +5,8 @@ And add feature to boost volume in Marketplace. Analyze trading volume and price
 
 # 👤 Contact Me
 
-### Discord: [John Criswick](https://discord.gg/users/343286332446998530)   
-johncriswick25
+### Discord: [Earth Zeta](https://discord.gg/users/339619501081362432)   
+earthzeta
 ### Telegram: [₿TC-GOD WEB3](https://t.me/opensea712)   
 https://t.me/opensea712
 
