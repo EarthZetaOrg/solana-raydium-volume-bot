@@ -3,14 +3,23 @@
 Designed to automate the distribution of SOL to multiple wallets and execute endless buy and sell swap transactions simultaneously on the Raydium and Meteora platform. It leverages Solana's blockchain technology to perform these operations efficiently.
 And add feature to boost volume in Marketplace. Analyze trading volume and price movements to make decisions about when to buy or sell assets.
 
-# 👤 Contact Me
+# 👋 Contact Me
 
-### Discord: [Earth Zeta](https://discord.com/users/339619501081362432)   
-earthzeta
-### Telegram: [₿TC-GOD WEB3](https://t.me/opensea712)   
-https://t.me/opensea712
+### 
+Discord: earthzeta             
+Telegram: magiceden7
+###
+<div style={{display : flex ; justify-content : space-evenly}}> 
+    <a href="https://discordapp.com/users/339619501081362432" target="_blank"><img alt="Discord"
+        src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white"/></a>
+    <a href="https://t.me/magiceden7" target="_blank"><img alt="Telegram"
+        src="https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white"/></a>
+</div>
 
-Feel free to contact me if you need any help.
+
+#### Feel free to contact me if you need any help.
+
+# Overview
 
 ### What is the main difference between the former volume booster and the updated one?
 
