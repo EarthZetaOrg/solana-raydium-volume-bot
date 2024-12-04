@@ -1,4 +1,4 @@
-# Solana Raydium Volume Bot V3
+# Solana Raydium Volume Bot
 
 Designed to automate the distribution of SOL to multiple wallets and execute endless buy and sell swap transactions simultaneously on the Raydium and Meteora platform. It leverages Solana's blockchain technology to perform these operations efficiently.
 And add feature to boost volume in Marketplace. Analyze trading volume and price movements to make decisions about when to buy or sell assets.
