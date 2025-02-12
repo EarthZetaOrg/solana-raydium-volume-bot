@@ -1,7 +1,6 @@
 import { Logger } from 'pino';
 import dotenv from 'dotenv';
 import fs from 'fs';
-import { sendMessage } from './tgNotification';
 
 dotenv.config();
 
@@ -9,7 +8,6 @@ export const retrieveEnvVariable = (variableName: string, logger: Logger) => {
   const variable = process.env[variableName] || '';
   if (!variable) {
     console.log(`${variableName} is not set`);
-    // sendMessage(`${variableName} is not set`)
     process.exit(1);
   }
   return variable;
@@ -32,15 +30,12 @@ export const randVal = (min: number, max: number, count: number, total: number, 
   if (min * count > total)
     throw new Error("Invalid input: min * count must be less than or equal to total.")
   const average = total / count
-  // Randomize pairs of elements
   for (let i = 0; i < count; i += 2) {
-    // Generate a random adjustment within the range
     const adjustment = Math.random() * Math.min(max - average, average - min)
-    // Add adjustment to one element and subtract from the other
     arr[i] += adjustment
     arr[i + 1] -= adjustment
   }
-  // if (count % 2) arr.pop()
+  if (count % 2) arr.pop()
   return arr;
 }
 
@@ -49,17 +44,13 @@ export const saveDataToFile = (newData: Data[], filePath: string = "data.json") 
   try {
     let existingData: Data[] = [];
 
-    // Check if the file exists
     if (fs.existsSync(filePath)) {
-      // If the file exists, read its content
       const fileContent = fs.readFileSync(filePath, 'utf-8');
       existingData = JSON.parse(fileContent);
     }
 
-    // Add the new data to the existing array
     existingData.push(...newData);
 
-    // Write the updated data back to the file
     fs.writeFileSync(filePath, JSON.stringify(existingData, null, 2));
 
   } catch (error) {
@@ -89,10 +80,9 @@ export function deleteConsoleLines(numLines: number) {
 }
 
 
-// Function to read JSON file
 export function readJson(filename: string = "data.json"): Data[] {
     if (!fs.existsSync(filename)) {
-        // If the file does not exist, create an empty array
+        fs.writeFileSync(filename, '[]', 'utf-8');
         fs.writeFileSync(filename, '[]', 'utf-8');
     }
     const data = fs.readFileSync(filename, 'utf-8');

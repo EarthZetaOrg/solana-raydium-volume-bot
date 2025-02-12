@@ -1,5 +1,6 @@
 {
   "name": "volume-bot",
+  "author": "Earthzeta",
   "scripts": {
     "tsc": "tsc --noEmit",
     "start": "ts-node index.ts",

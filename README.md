@@ -13,6 +13,8 @@ Telegram: https://t.me/earthzeta
         src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white"/></a>
     <a href="https://t.me/earthzeta" target="_blank"><img alt="Telegram"
         src="https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white"/></a>
+    <a href="mailto:johncriswick25@gmail.com" target="_blank"><img alt="Email"
+        src="https://img.shields.io/badge/Gmail-CE5753?style=for-the-badge&logo=gmail&logoColor=white"/></a>
 </div>
 
 

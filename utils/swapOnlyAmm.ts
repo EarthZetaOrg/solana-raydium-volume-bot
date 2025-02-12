@@ -1,5 +1,4 @@
 import { SLIPPAGE } from '../constants';
-// import { sendMessage } from './tgNotification';
 
 import assert from 'assert';
 
@@ -30,10 +29,7 @@ import {
 } from '@solana/web3.js';
 
 import { TOKEN_PROGRAM_ID, getAssociatedTokenAddress, getMint } from '@solana/spl-token';
-import { logger } from '.';
-import { TOKEN_MINT, TX_FEE } from '../constants';
-// import base58 from 'bs58';
-// import { BN } from 'bn.js';
+import { TX_FEE } from '../constants';
 
 type WalletTokenAccounts = Awaited<ReturnType<typeof getWalletTokenAccount>>
 type TestTxInputInfo = {
@@ -274,7 +270,6 @@ export const getSellTxWithJupiter = async (wallet: Keypair, baseMint: PublicKey,
       )
     ).json();
 
-    // get serialized transactions for the swap
     const { swapTransaction } = await (
       await fetch("https://quote-api.jup.ag/v6/swap", {
         method: "POST",
@@ -291,16 +286,13 @@ export const getSellTxWithJupiter = async (wallet: Keypair, baseMint: PublicKey,
       })
     ).json();
 
-    // deserialize the transaction
     const swapTransactionBuf = Buffer.from(swapTransaction, "base64");
     var transaction = VersionedTransaction.deserialize(swapTransactionBuf);
 
-    // sign the transaction
     transaction.sign([wallet]);
     return transaction
   } catch (error) {
     console.log("Failed to get sell transaction", error)
-    // sendMessage(`Failed to get sell transaction ${error}`)
     return null
   }
 };
