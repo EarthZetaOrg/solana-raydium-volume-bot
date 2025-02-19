@@ -1,6 +1,27 @@
 {
   "name": "raydium-volume-bot",
   "author": "Earthzeta",
+  "description": "Raydium Volume Bot",
+  "version": "1.0.0",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EarthZetaOrg/raydium-volume-bot"
+  },
+  "homepage": "https://github.com/EarthZetaOrg/raydium-volume-bot",
+  "bugs": {
+    "url": "https://github.com/EarthZetaOrg/raydium-volume-bot/issues"
+  },
+  "keywords": [
+    "raydium",
+    "volume",   
+    "bot"
+  ],
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "tsc": "tsc --noEmit",
     "start": "ts-node index.ts",
