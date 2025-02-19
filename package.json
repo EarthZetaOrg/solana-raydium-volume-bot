@@ -1,5 +1,5 @@
 {
-  "name": "volume-bot",
+  "name": "raydium-volume-bot",
   "author": "Earthzeta",
   "scripts": {
     "tsc": "tsc --noEmit",
